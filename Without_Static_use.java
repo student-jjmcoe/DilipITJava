@@ -14,9 +14,9 @@ public class Without_Static_use
 
       public static void main(String[]args)
       {
-           Static_use x = new Static_use();
-           Static_use x2 = new Static_use();
-           Static_use x3 = new Static_use();
+           Without_Static_use x = new Without_Static_use();
+           Without_Static_use x2 = new Without_Static_use();
+           Without_Static_use x3 = new Without_Static_use();
 
            System.out.println(x.clgName);
            System.out.println(x.principalName);
@@ -48,29 +48,5 @@ public class Without_Static_use
            System.out.println(x.clgName);
            System.out.println(x2.clgName);
            System.out.println(x3.clgName);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       }
  }
