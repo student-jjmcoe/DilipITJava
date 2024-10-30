@@ -8,6 +8,12 @@ public class OAssignment3_1
       }
       public double addition(double a, long b)
       {
+           int sub = sub(19,11);
+           System.out.println(sub);
            return a+b;
+      }
+      public int sub(int a, int b)
+      {
+           return a-b;
       }
 }
